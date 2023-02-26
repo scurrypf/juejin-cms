@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "actives",
+  "info": {
+    "singularName": "active",
+    "pluralName": "actives",
+    "displayName": "Active"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
