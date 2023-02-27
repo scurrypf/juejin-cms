@@ -54,6 +54,10 @@
     },
     "discuss": {
       "type": "integer"
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 41
     }
   }
 }
