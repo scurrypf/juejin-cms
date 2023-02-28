@@ -4,7 +4,8 @@
   "info": {
     "singularName": "seetag",
     "pluralName": "seetags",
-    "displayName": "seetag"
+    "displayName": "seetag",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,11 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
     }
   }
 }
