@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navtags",
+  "info": {
+    "singularName": "navtag",
+    "pluralName": "navtags",
+    "displayName": "navtag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
