@@ -58,6 +58,12 @@
     "summary": {
       "type": "string",
       "maxLength": 41
+    },
+    "seetags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::seetag.seetag",
+      "inversedBy": "articls"
     }
   }
 }
