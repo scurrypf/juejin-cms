@@ -27,6 +27,9 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "mappedBy": "seetags"
+    },
+    "en": {
+      "type": "string"
     }
   }
 }
