@@ -4,7 +4,8 @@
   "info": {
     "singularName": "navtag",
     "pluralName": "navtags",
-    "displayName": "navtag"
+    "displayName": "navtag",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,9 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "en": {
+      "type": "string"
     }
   }
 }
